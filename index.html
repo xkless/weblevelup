@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<meta charset="utf-8">
-		<title>Главная</title>
-	</head>
-	<body>
-		<div>
-			<ul>
-				<li><a href="index.html">Главная</a></li>
-				<li><a href="contacts.html">Контакты</a></li>
-				<li><a href="about.html">О нас</a></li>
-			</ul>	
-		</div>
-		<div>
-				<h1>Статья 1</h1>
-				<img src="img/1.png" width="50%" height="50%">
-				<p>
-				eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
-				</p>
-		</div>		
-	</body>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<title>Калькулятор</title>
+</head>
+<body>
+<h1>Калькулятор</h1>
+	<form>
+		<input type="text" id="left" /> + 
+		<input type="text" id="right" />
+
+		<input type="button" value="Сумма" onclick="count(); but1()" />
+
+		<div id="result"></div>
+	</form>
+	<form>
+		<input type="text" id="left2" /> * 
+		<input type="text" id="right2" />
+
+		<input type="button" value="Умножение" onclick="count2(); but2()" />
+
+		<div id="result2"></div>
+	</form>
+
+</body>
 </html>

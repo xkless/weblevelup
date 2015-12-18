@@ -1,0 +1,16 @@
+div {
+	width: 200px;
+	height: 200px;
+	background: green;
+	display: none;
+	margin-left: 80px;
+	margin-top: 10px;
+	font-size: 24px;
+}
+form {
+	margin-left: 180px;
+	margin-top: 20px;
+}
+h1{
+	text-align: center;
+}
